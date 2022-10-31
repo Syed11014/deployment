@@ -1,4 +1,4 @@
-name : Test Action 
+name: Test Action 
 # Controls when the action will run.
 on:
  # triggers the workflow on push or pull request events but only for the main branch
