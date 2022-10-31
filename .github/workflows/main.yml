@@ -39,7 +39,7 @@ jobs:
       run: npm install surge
       
     - name: Deploy website on surge 
-      run: surge ./ fuzzy-yarn.surge.sh --token ${{ secrets.FUZZY-YARN_SURGE_TOKEN}}
+      run: surge ./ https://fuzzy-yarn.surge.sh/ --token ${{ secrets.TEST_SURGE_TOKEN}}
         
    
  
